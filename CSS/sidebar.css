@@ -1,0 +1,27 @@
+/* Side Bar  */
+
+.sidebar{
+  grid-area: sd;
+}
+
+.photo-camilla{
+  border-radius: 70%;
+  width: 50%;
+  padding: 2%;
+}
+
+.headerSidebar{
+  background-color: #93b5b3;
+  color: white;
+  line-height: 2;
+  font-family: "Reenie Beanie";
+  font-size: 2rem;
+}
+
+.p-sidebar{
+  padding: 2% 20%;
+}
+
+.formInput{
+  margin-bottom: 10px;
+}

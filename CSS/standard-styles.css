@@ -1,0 +1,23 @@
+body{
+  background-image: url("background2.jpeg");
+  padding: 2%;
+  font-family: "Montserrat";
+  max-width: 100%;
+  overflow-x: hidden;;
+}
+
+div{
+  background-color: white;
+}
+
+a:visited{
+  color: black;
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 10%;
+  border-width: 5px;
+  border-color: #dee3e2;
+  margin-bottom: 30px;
+}

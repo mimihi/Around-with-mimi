@@ -1,0 +1,21 @@
+/* Footer  */
+
+.footer{
+  grid-area: ft;
+  background-color: #93b5b3;
+  padding: 10px 0 10px 0;
+  font-size: 1rem;
+}
+
+.fab{
+  padding: 10px;
+}
+
+.fab:hover{
+  background-color: #c8dad3;
+  border-radius: 15px;
+}
+
+.copyright{
+  font-size: 0.75rem;
+}

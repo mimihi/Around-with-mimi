@@ -1,0 +1,90 @@
+@import "standard-styles.css";
+@import "header.css";
+@import "sidebar.css";
+@import "footer.css";
+
+
+.container{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 300px auto;
+  grid-template-areas:
+  "hd"
+  "main"
+  "sd"
+  "ft";
+}
+
+.nestedGrid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: 50% 50%;
+}
+
+.box{
+  text-align: center;
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 10%;
+  border-width: 5px;
+  border-color: #dee3e2;
+  margin-bottom: 30px;
+}
+
+/* content  */
+
+.content{
+  grid-area: main;
+}
+
+.card{
+padding: 2% 0 3% 0;
+}
+
+.cardImage{
+  width: 70%;
+}
+
+.cardText{
+  text-align: justify;
+  padding: 3% 10%;
+}
+
+figcaption{
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+.button{
+  border-radius: 10px;
+  line-height: 2;
+  font-size: 1rem;
+  background-color: #c8dad3;
+  margin-bottom: 30px;
+  color: white;
+  width: 120px;
+}
+
+.button:hover{
+  background-color: #93b5b3;
+}
+
+
+@media(min-width:900px){
+.container{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 300px auto;
+  grid-template-areas:
+  "hd hd"
+  "main sd"
+  "ft ft";
+  border: 2px solid white;
+}
+
+.headerLogo{
+  width: 45%;
+}
+}

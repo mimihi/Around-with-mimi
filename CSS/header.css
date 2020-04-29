@@ -1,0 +1,39 @@
+/* Header  */
+
+.header{
+  grid-area: hd;
+}
+
+.navigationBar{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  width: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 14px;
+  padding: 15px 8px;
+  white-space: nowrap;
+}
+
+li:hover{
+  background-color: #c8dad3;
+  border-radius: 10px;
+}
+
+.headerLogo{
+  padding-top: 60px;
+  width: 70%;
+}
+
+@media(min-width:901px){
+  .li{
+    font-size: 16px;
+    padding: 15px 15px;
+  }
+}
