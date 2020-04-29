@@ -2,8 +2,8 @@ body{
   background-image: url("background2.jpeg");
   padding: 2%;
   font-family: "Montserrat";
-  max-width: 100%;
-  overflow-x: hidden;;
+  max-width: auto;
+  overflow-x: hidden;
 }
 
 div{
